@@ -1,0 +1,57 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.icon-container_moon{
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+  padding-top: 1px;
+}
+.icon-container_sun{
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+  padding-top: 1px;
+}
+
+#background-card {
+  margin: 0 auto;
+  max-width: 100%;
+
+}
+#front-card-left {
+  margin: 0 auto;
+  max-width: 50%;
+  align-content: center;
+  margin-right: 50%;
+
+}
+
+.job_design{
+  font-weight: bold;
+  font-size: x-large;
+  display:block;
+  height: auto;
+  width: 70%;
+
+}
+
+.describtion_design{
+  padding-top: 10px;
+  font-weight: lighter;
+  height: auto;
+  width: 70%;
+
+}
+.tasks{
+  list-style: disc;
+  overflow-wrap: break-word;
+
+}
