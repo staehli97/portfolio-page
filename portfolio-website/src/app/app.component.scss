@@ -31,7 +31,7 @@
   max-width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  ///background-image: url('../assets/background.jpg');
+  background-image: url('../assets/background.jpg');
   background-size: cover;
   background-repeat: repeat;
 
@@ -49,18 +49,18 @@
 }
 
 .job_design{
-  font-weight: bold;
+  padding-top: 2%;
   font-size: x-large;
   display:block;
   height: auto;
-  width: 70%;
+  width: 100%;
 }
 
 .describtion_design{
   padding-top: 10px;
   font-weight: lighter;
   height: auto;
-  width: 70%;
+  width: 90%;
   color:black;
 }
 .tasks{
@@ -68,3 +68,19 @@
   overflow-wrap: break-word;
 }
 
+.skills_titel{
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.skills_definition{
+  padding-top: 1%;
+  font-size: large;
+
+}
+
+
+#mat-list{
+  height: auto;
+  width: auto;
+}

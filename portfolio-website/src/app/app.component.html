@@ -5,6 +5,7 @@
   <mat-slide-toggle [formControl]="toggleControl"> </mat-slide-toggle>
   <div class="icon-container_moon"><mat-icon>bedtime</mat-icon></div>
 </mat-toolbar>
+
 <mat-card id="background-card" class="front-card-cv">
     <mat-card id="front-card-left">
       <mat-card-content>
@@ -122,9 +123,80 @@
     </mat-card>
     <mat-card id="front-card-right">
       <mat-card-content>
-        <mat-card-header>
-          <mat-card-title class="titel_stepper">Die Kunst der Fähigkeiten</mat-card-title>
-        </mat-card-header>
+        <mat-card-header><mat-card-title class="titel_stepper">Die Kunst der Fähigkeiten</mat-card-title></mat-card-header>
+        <mat-list>
+
+          <mat-list-item id="mat-list">
+            <span class="skills_titel" matListItemTitle>Dev</span>
+            <p matListItemLine class="skills_definition" >Java</p>
+            <mat-progress-bar mode="determinate" value="60"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list">
+            <p matListItemLine class="skills_definition" >C#</p>
+            <mat-progress-bar mode="determinate" value="20"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list">
+            <p matListItemLine class="skills_definition" >Python</p>
+            <mat-progress-bar mode="determinate" value="70"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list">
+            <p matListItemLine class="skills_definition" >ABAP</p>
+            <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list">
+            <p matListItemLine class="skills_definition" >VB/VBA/VBS</p>
+            <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list">
+            <p matListItemLine class="skills_definition" >HTML/CSS/Javascript/Angular</p>
+            <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list">
+            <p matListItemLine class="skills_definition" >SQL/MySQL</p>
+            <mat-progress-bar mode="determinate" value="70"></mat-progress-bar>
+          </mat-list-item>
+          <br>
+          <mat-list-item id="mat-list">
+            <span class="skills_titel" matListItemTitle>Testing</span>
+            <p matListItemLine class="skills_definition" >Robotframework/Selenium</p>
+            <mat-progress-bar mode="determinate" value="100"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list">
+            <p matListItemLine class="skills_definition" >QF Test</p>
+            <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list_testing">
+            <p matListItemLine class="skills_definition" >HP ALM/HP UFT</p>
+            <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list_testing">
+            <p matListItemLine class="skills_definition" >CI/CD Pipeline</p>
+            <mat-progress-bar mode="determinate" value="20"></mat-progress-bar>
+          </mat-list-item>
+
+          <br>
+          <mat-list-item id="mat-list">
+            <span class="skills_titel" matListItemTitle>OPS</span>
+            <p matListItemLine class="skills_definition" >Monitoring and alerting</p>
+            <mat-progress-bar mode="determinate" value="10"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list_testing">
+            <p matListItemLine class="skills_definition" >On-call, incident response and incident management</p>
+            <mat-progress-bar mode="determinate" value="30"></mat-progress-bar>
+          </mat-list-item>
+
+
+        </mat-list>
       </mat-card-content>
     </mat-card>
 </mat-card>
