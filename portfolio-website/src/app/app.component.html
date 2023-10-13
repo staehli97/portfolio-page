@@ -6,7 +6,36 @@
   <div class="icon-container_moon"><mat-icon>bedtime</mat-icon></div>
 </mat-toolbar>
 
-<mat-card id="background-card" class="front-card-cv">
+<mat-card id="background-card" >
+  <mat-card id="entry" class="front-card-top">
+    <mat-card-content>
+      <mat-tab-group>
+
+        <mat-tab label="Wer bin ich?">
+          <br>
+          <div class="tab1"><img class="my-image" src="../assets/whoami.jpeg" alt="Mein Bild">
+          </div>
+        </mat-tab>
+
+        <mat-tab id = "tab2" class="tab2" label="Was mache ich?">
+        <br><div class="container_tabs">
+          <div id="div1"> <img class="my-image_tab2" src="../assets/whoami.jpeg" alt="Mein Bild"></div>
+          <div id="div2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+          <div id="div3"></div>
+        </div>
+
+      </mat-tab>
+        <mat-tab label="Meine Interessen"><br><div class="container_tabs">
+          <div id="div1"> <img class="my-image_tab2" src="../assets/whoami.jpeg" alt="Mein Bild"></div>
+          <div id="div2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+          <div id="div3"> In einer weit entfernten Galaxie, fernab unserer Erde, existierte ein kleiner Planet namens Zephyria. Dieser Planet war für seine atemberaubenden Landschaften und seine einzigartige Tierwelt bekannt. Die Bewohner von Zephyria waren stolz auf ihre Heimat und sorgten dafür, sie zu schützen.</div>
+        </div></mat-tab>
+
+      </mat-tab-group>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card id="container" class="front-card-cv">
     <mat-card id="front-card-left">
       <mat-card-content>
         <mat-card-header>
@@ -123,9 +152,9 @@
     </mat-card>
     <mat-card id="front-card-right">
       <mat-card-content>
-        <mat-card-header><mat-card-title class="titel_stepper">Die Kunst der Fähigkeiten</mat-card-title></mat-card-header>
+        <mat-card-header><mat-card-title class="titel_stepper">IT Skills</mat-card-title></mat-card-header>
         <mat-list>
-
+<!--          //Vielleicht noch expansion Panel erstellen-->
           <mat-list-item id="mat-list">
             <span class="skills_titel" matListItemTitle>Dev</span>
             <p matListItemLine class="skills_definition" >Java</p>
@@ -198,6 +227,7 @@
 
         </mat-list>
       </mat-card-content>
+    </mat-card>
     </mat-card>
 </mat-card>
 

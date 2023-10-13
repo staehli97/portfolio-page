@@ -15,6 +15,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatTreeModule } from '@angular/material/tree';
 import { MatButtonModule } from '@angular/material/button';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatTabsModule } from '@angular/material/tabs';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,9 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
     MatGridListModule,
     MatTreeModule,
     MatButtonModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatTabsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

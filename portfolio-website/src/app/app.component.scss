@@ -28,13 +28,57 @@
 
 #background-card {
   margin: 0 auto;
-  max-width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  background-image: url('../assets/background.jpg');
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  //background-image: url('../assets/background.jpg');
   background-size: cover;
   background-repeat: repeat;
 
+}
+
+.tab1{
+  justify-content: center;
+  align-content: center;
+}
+#tab2{
+  justify-content: center;
+  align-content: center;
+}
+#tab3{
+  justify-content: center;
+  align-content: center;
+}
+
+
+#div1{
+  height: 100%;
+  width: 100%;
+}
+
+#div2{
+  height: 100%;
+  width: 100%;
+}
+
+.my-image_tab2{
+  width:90%;
+  height:90%;
+}
+
+#div3{
+  height: 100%;
+  width: 100%;
+}
+
+.container_tabs{
+  display:flex;
+  justify-content: space-between;
+}
+
+.my-image {
+  width: 31%;
+  height: 31%
 }
 
 .front-card-cv {
@@ -46,6 +90,11 @@
 #front-card-left, #front-card-right {
   flex: 1; /* Verteilt den verfügbaren Platz gleichmäßig zwischen den beiden Karten */
   margin: 10px; /* Fügt einen Abstand zwischen den Karten hinzu */
+}
+
+#entry{
+  width: auto;
+  height: auto;
 }
 
 .job_design{
@@ -78,7 +127,6 @@
   font-size: large;
 
 }
-
 
 #mat-list{
   height: auto;
