@@ -21,17 +21,31 @@
   padding-top: 1px;
 }
 
+.titel_stepper{
+  font-size: x-large;
+  font-weight: bold;
+}
+
 #background-card {
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  ///background-image: url('../assets/background.jpg');
+  background-size: cover;
+  background-repeat: repeat;
 
 }
-#front-card-left {
-  margin: 0 auto;
-  max-width: 50%;
-  align-content: center;
-  margin-right: 50%;
 
+.front-card-cv {
+  display: flex;
+  flex-direction: row; /* Ändern Sie die Flex-Richtung von der Standardoption "column" auf "row" */
+  justify-content: space-between; /* Fügt Abstand zwischen den Karten hinzu */
+}
+
+#front-card-left, #front-card-right {
+  flex: 1; /* Verteilt den verfügbaren Platz gleichmäßig zwischen den beiden Karten */
+  margin: 10px; /* Fügt einen Abstand zwischen den Karten hinzu */
 }
 
 .job_design{
@@ -40,7 +54,6 @@
   display:block;
   height: auto;
   width: 70%;
-
 }
 
 .describtion_design{
@@ -48,10 +61,10 @@
   font-weight: lighter;
   height: auto;
   width: 70%;
-
+  color:black;
 }
 .tasks{
   list-style: disc;
   overflow-wrap: break-word;
-
 }
+

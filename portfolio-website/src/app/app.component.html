@@ -1,23 +1,19 @@
 <mat-toolbar color="primary" class="toolbar">
   <span>Portfolio Lars Stähli</span>
   <span class="spacer"></span>
-  <div class="icon-container_sun">
-    <mat-icon>wb_sunny</mat-icon>
-  </div>
+  <div class="icon-container_sun"><mat-icon>wb_sunny</mat-icon></div>
   <mat-slide-toggle [formControl]="toggleControl"> </mat-slide-toggle>
-  <div class="icon-container_moon">
-    <mat-icon>bedtime</mat-icon>
-  </div>
+  <div class="icon-container_moon"><mat-icon>bedtime</mat-icon></div>
 </mat-toolbar>
-<mat-card id="background-card">
-  <mat-card-content>
-
-  </mat-card-content>
-  <mat-card-content>
+<mat-card id="background-card" class="front-card-cv">
     <mat-card id="front-card-left">
       <mat-card-content>
+        <mat-card-header>
+          <mat-card-title class="titel_stepper">Ein Blick in die Vergangenheit</mat-card-title>
+        </mat-card-header>
         <mat-vertical-stepper #stepper>
           <mat-step label ="01.2023 - Today">
+            <ng-template matStepperIcon="edit"><mat-icon>zoom_in</mat-icon></ng-template>
             <div class="job_design">DevOps Engineer @Schweizerische Post</div>
             <div class="describtion_design">
               <ul class="tasks">
@@ -26,9 +22,8 @@
                 <li>OPS Tasks</li>
                 <li>Parallel zum Teilzeit Studium 40%</li>
               </ul>
-            </div>
+              </div>
           </mat-step>
-
           <mat-step label="10.2021 - 12.2022">
               <div class="job_design">Test Engineer @Schweizerische Post</div>
               <div class="describtion_design">
@@ -39,7 +34,6 @@
                 </ul>
               </div>
           </mat-step>
-
           <mat-step label="09.2021 - Today">
                 <div class="job_design">Bsc. Wirtschaftsinformatik @BFH</div>
                 <div class="describtion_design">
@@ -50,7 +44,6 @@
                   </ul>
                 </div>
           </mat-step>
-
           <mat-step label="08.2019 - 07.2020">
             <div class="job_design">Technische Berufsmaturität Vollzeit</div>
             <div class="describtion_design">
@@ -59,7 +52,6 @@
               </ul>
             </div>
           </mat-step>
-
           <mat-step label="08.2019 - 07.2020">
             <div class="job_design">Test Engineer @Haag-Streit</div>
             <div class="describtion_design">
@@ -79,7 +71,6 @@
               </ul>
             </div>
           </mat-step>
-
           <mat-step label="01.2019 - 05.2019">
             <div class="job_design">Rekrutenschule Infanterie</div>
             <div class="describtion_design">
@@ -89,7 +80,6 @@
               </ul>
             </div>
           </mat-step>
-
           <mat-step label="09.2018 - 12.2018">
             <div class="job_design">Sprachenaufenthalt in Perth</div>
             <div class="describtion_design">
@@ -98,7 +88,6 @@
               </ul>
             </div>
           </mat-step>
-
           <mat-step label="08.2014 - 07.2018">
             <div class="job_design">Informatik Lehre EFZ @BIT</div>
             <div class="describtion_design">
@@ -131,7 +120,13 @@
         </mat-vertical-stepper>
       </mat-card-content>
     </mat-card>
-  </mat-card-content>
+    <mat-card id="front-card-right">
+      <mat-card-content>
+        <mat-card-header>
+          <mat-card-title class="titel_stepper">Die Kunst der Fähigkeiten</mat-card-title>
+        </mat-card-header>
+      </mat-card-content>
+    </mat-card>
 </mat-card>
 
 

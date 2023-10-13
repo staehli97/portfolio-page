@@ -35,7 +35,11 @@ $angular-dark-theme: mat.define-dark-theme(
 
 
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; font-size: xxx-large }
+html, body { height: 100%; display: unset!important; }
+body { margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: xxx-large;
+
+}
 
 
