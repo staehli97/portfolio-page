@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25ddd075-384b-4902-8100-ab696abe9a87" name="Changes" comment="- Preliminary version of the Skills">
+    <list default="true" id="25ddd075-384b-4902-8100-ab696abe9a87" name="Changes" comment="-Tab Integration for Top introduction">
+      <change afterPath="$PROJECT_DIR$/portfolio-website/src/assets/whoami.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/src/app/app.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-website/src/assets/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2Vka9i4Mh313NfDq1TE2M18WfOC" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -64,7 +67,9 @@
       <workItem from="1696343031897" duration="1208000" />
       <workItem from="1697193716492" duration="3368000" />
       <workItem from="1697202347379" duration="12294000" />
-      <workItem from="1697228654719" duration="9274000" />
+      <workItem from="1697228654719" duration="9975000" />
+      <workItem from="1697238720479" duration="1111000" />
+      <workItem from="1697240179346" duration="2144000" />
     </task>
     <task id="LOCAL-00001" summary="- Initial commit&#10;- Small Start of page">
       <created>1696091387164</created>
@@ -87,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697232863171</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-Tab Integration for Top introduction">
+      <created>1697237972678</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697237972678</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +110,7 @@
     <MESSAGE value="- Initial commit&#10;- Small Start of page" />
     <MESSAGE value="- Dark Mode fixed for stepper&#10;- Stepper adapted&#10;- Start of Skills" />
     <MESSAGE value="- Preliminary version of the Skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Preliminary version of the Skills" />
+    <MESSAGE value="-Tab Integration for Top introduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Tab Integration for Top introduction" />
   </component>
 </project>
