@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25ddd075-384b-4902-8100-ab696abe9a87" name="Changes" comment="-Tab Integration for Top introduction">
-      <change afterPath="$PROJECT_DIR$/portfolio-website/src/assets/whoami.jpeg" afterDir="false" />
+    <list default="true" id="25ddd075-384b-4902-8100-ab696abe9a87" name="Changes" comment="Dependencies Updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-website/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-website/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-website/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,23 +33,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/WSEG&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/larss/IdeaProjects/portfolio-page/portfolio-website",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/portfolio-website/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +88,7 @@
       <workItem from="1697202347379" duration="12294000" />
       <workItem from="1697228654719" duration="9975000" />
       <workItem from="1697238720479" duration="1111000" />
-      <workItem from="1697240179346" duration="2144000" />
+      <workItem from="1697240179346" duration="6826000" />
     </task>
     <task id="LOCAL-00001" summary="- Initial commit&#10;- Small Start of page">
       <created>1696091387164</created>
@@ -99,7 +118,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697237972678</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="-Tab Integration for Top introduction">
+      <option name="closed" value="true" />
+      <created>1697465639747</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697465639748</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Dependencies Updates">
+      <option name="closed" value="true" />
+      <created>1697465813497</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697465813497</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +146,7 @@
     <MESSAGE value="- Dark Mode fixed for stepper&#10;- Stepper adapted&#10;- Start of Skills" />
     <MESSAGE value="- Preliminary version of the Skills" />
     <MESSAGE value="-Tab Integration for Top introduction" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Tab Integration for Top introduction" />
+    <MESSAGE value="Dependencies Updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependencies Updates" />
   </component>
 </project>
