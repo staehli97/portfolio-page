@@ -8,6 +8,7 @@ import { MatListModule } from '@angular/material/list';
 import { DadjokesService } from './dadjokes.service';
 import {MatButtonModule} from "@angular/material/button";
 import { CharacterService } from "./character.service";
+import { CryptoService} from "./crypto.service";
 
 @Component({
   selector: 'app-root',
@@ -21,11 +22,16 @@ export class AppComponent {
   title = 'Lars Stähli';
   toggleControl = new FormControl((localStorage.getItem('theme') == this._localStorageDarkTheme));
   characterData: any;
+  cryptoData: any;
 
   joke: string = "";
   dadJokeTitle = 'Dad jokes';
 
-  constructor(private overlay: OverlayContainer, private elementRef: ElementRef, private dadjokes: DadjokesService, private characterService: CharacterService) {
+  constructor(private overlay: OverlayContainer,
+              private elementRef: ElementRef,
+              private dadjokes: DadjokesService,
+              private characterService: CharacterService,
+              private cryptoService: CryptoService) {
 
   }
   fetchJoke(): void {
@@ -49,6 +55,10 @@ export class AppComponent {
       }
       this.applyDarkSavedTheme();
     });
+
+    this.cryptoService.getCrypto().subscribe(data=>{
+        this.cryptoData = data.data;
+    })
   }
 
   ngAfterContentInit(): void {

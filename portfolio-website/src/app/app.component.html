@@ -255,6 +255,19 @@
     </div>
     </mat-card-content>
 
+    <mat-card-content id="crypto">
+      <br><div class="container_rickmorty"><mat-card-title>Crypto Currencies: </mat-card-title>
+      <div *ngFor="let crypto of cryptoData; let i = index">
+        <ng-container *ngIf="i < 2">
+          <h2>{{ crypto.name }}</h2>
+          <p>Coin: {{ crypto.symbol }}</p>
+          <p>Market Cap: ${{ crypto.marketCapUsd }}</p>
+          <p>Price (USD): ${{ crypto.priceUsd }}</p>
+        </ng-container>
+      </div>
+    </div>
+    </mat-card-content>
+
     </mat-card>
   </mat-card>
 </mat-card>
