@@ -5,19 +5,39 @@ import { OverlayContainer } from "@angular/cdk/overlay";
 import {MatStepperModule} from '@angular/material/stepper';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatListModule } from '@angular/material/list';
+import { DadjokesService } from './dadjokes.service';
+import {MatButtonModule} from "@angular/material/button";
+import { CharacterService } from "./character.service";
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
+
 })
 export class AppComponent {
   private readonly _localStorageDarkTheme = 'dark';
   @HostBinding('class') className = '';
   title = 'Lars Stähli';
   toggleControl = new FormControl((localStorage.getItem('theme') == this._localStorageDarkTheme));
+  characterData: any;
 
-  constructor(private overlay: OverlayContainer, private elementRef: ElementRef) {
+  joke: string = "";
+  dadJokeTitle = 'Dad jokes';
 
+  constructor(private overlay: OverlayContainer, private elementRef: ElementRef, private dadjokes: DadjokesService, private characterService: CharacterService) {
+
+  }
+  fetchJoke(): void {
+    this.dadjokes.getDadJoke().subscribe((data: any) => {
+      this.joke = data.joke;
+    });
+  }
+
+  fetchCharacter() {
+    this.characterService.getRandomCharacter().subscribe(data => {
+      this.characterData = data;
+    });
   }
 
   ngOnInit(): void {
@@ -81,4 +101,6 @@ export class AppComponent {
       }
     }
   }
+
+
 }

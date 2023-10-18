@@ -87,6 +87,12 @@
   justify-content: space-between; /* Fügt Abstand zwischen den Karten hinzu */
 }
 
+.container_api {
+  display: flex;
+  flex-direction: row;
+
+}
+
 #front-card-left, #front-card-right {
   flex: 1; /* Verteilt den verfügbaren Platz gleichmäßig zwischen den beiden Karten */
   margin: 10px; /* Fügt einen Abstand zwischen den Karten hinzu */
@@ -131,4 +137,47 @@
 #mat-list{
   height: auto;
   width: auto;
+}
+
+#dadjokes{
+  width: 25%;
+}
+
+#rickandmorty{
+  width: 25%;
+  padding-top: 15px;
+}
+
+.container_dadjoke{
+  border: 5px dashed black;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.joke{
+  font-family: Dialog;
+  text-align: center;
+}
+.smile{
+  height: 10%;
+  width: 10%;
+}
+.container_rickmorty{
+  border: 5px dashed black;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.imgRM{
+  width: 50%;
+  height: 50%;
 }

@@ -20,21 +20,20 @@
         <mat-tab id = "tab2" class="tab2" label="Was mache ich?">
         <br><div class="container_tabs">
           <div id="div1"> <img class="my-image_tab2" src="../assets/whoami.jpeg" alt="Mein Bild"></div>
-          <div id="div2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+          <div id="div2">Ich bin ein gelernter Informatiker mit Schwerpunkt Applikationsentwicklung, der sich in der Welt des DevOps Engineerings in einer agilen Umgebung zu Hause fühlt. Mein Weg begann im Testing und führte mich zu der Rolle, die ich heute ausübe.<br><br>Als DevOps Engineer sehe ich meine Aufgabe darin, die nahtlose Zusammenarbeit zwischen Entwicklung und Operations zu fördern, indem ich Prozesse optimiere und Automatisierung vorantreibe. Aktuell absolviere ich meinen Bachelor, weil ich an lebenslanges Lernen glaube und immer bestrebt bin, meine Fähigkeiten zu verbessern.<br><br>Ich bin überzeugt, dass Leidenschaft, Wissen und eine agile Denkweise der Schlüssel zum Erfolg in der IT-Branche sind. Ich freue mich darauf, die Zukunft der Technologie mitzugestalten und weiterhin zu lernen und zu wachsen.</div>
           <div id="div3"></div>
         </div>
 
       </mat-tab>
         <mat-tab label="Meine Interessen"><br><div class="container_tabs">
           <div id="div1"> <img class="my-image_tab2" src="../assets/whoami.jpeg" alt="Mein Bild"></div>
-          <div id="div2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+          <div id="div2">Ich bin ein gelernter Informatiker mit Schwerpunkt Applikationsentwicklung, der sich in der Welt des DevOps Engineerings in einer agilen Umgebung zu Hause fühlt. Mein Weg begann im Testing und führte mich zu der Rolle, die ich heute ausübe.<br><br>Als DevOps Engineer sehe ich meine Aufgabe darin, die nahtlose Zusammenarbeit zwischen Entwicklung und Operations zu fördern, indem ich Prozesse optimiere und Automatisierung vorantreibe. Aktuell absolviere ich meinen Bachelor, weil ich an lebenslanges Lernen glaube und immer bestrebt bin, meine Fähigkeiten zu verbessern.<br><br>Ich bin überzeugt, dass Leidenschaft, Wissen und eine agile Denkweise der Schlüssel zum Erfolg in der IT-Branche sind. Ich freue mich darauf, die Zukunft der Technologie mitzugestalten und weiterhin zu lernen und zu wachsen.</div>
           <div id="div3"> In einer weit entfernten Galaxie, fernab unserer Erde, existierte ein kleiner Planet namens Zephyria. Dieser Planet war für seine atemberaubenden Landschaften und seine einzigartige Tierwelt bekannt. Die Bewohner von Zephyria waren stolz auf ihre Heimat und sorgten dafür, sie zu schützen.</div>
         </div></mat-tab>
 
       </mat-tab-group>
     </mat-card-content>
   </mat-card>
-
   <mat-card id="container" class="front-card-cv">
     <mat-card id="front-card-left">
       <mat-card-content>
@@ -229,6 +228,35 @@
       </mat-card-content>
     </mat-card>
     </mat-card>
+
+  <mat-card id="end" class="front-card-end">
+
+
+    <mat-card-header>
+      <mat-card-title class="titel_stepper">API's</mat-card-title>
+    </mat-card-header>
+
+    <mat-card class="container_api">
+    <mat-card-content id="dadjokes">
+    <br><div class="container_dadjoke"><mat-card-title>Get me a Dad Joke: <br><img src="../assets/smile.svg" alt="smile" class="smile"></mat-card-title>
+      <div id="joke" class="joke">{{ joke }}</div>
+      <br><button mat-button id="jokeBtn" class="dadjokebtn" (click)="fetchJoke()">Nächster Dad Joke</button>
+    </div>
+    </mat-card-content>
+
+    <mat-card-content id="rickandmorty">
+      <br><div class="container_rickmorty"><mat-card-title>Get your Rick and Morty Character: </mat-card-title>
+      <div *ngIf="characterData">
+        <img [src]="characterData.image" class="imgRM" [alt]="characterData.name">
+        <h3>{{ characterData.name }}</h3>
+        <p>Spezies: {{ characterData.species }}</p>
+      </div>
+      <button mat-button id="characterBtn" class="characterbtn" (click)="fetchCharacter()">Next Try</button>
+    </div>
+    </mat-card-content>
+
+    </mat-card>
+  </mat-card>
 </mat-card>
 
 

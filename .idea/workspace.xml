@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25ddd075-384b-4902-8100-ab696abe9a87" name="Changes" comment="Dependencies Updates">
+    <list default="true" id="25ddd075-384b-4902-8100-ab696abe9a87" name="Changes" comment="Dependencies Fix">
+      <change afterPath="$PROJECT_DIR$/portfolio-website/src/app/character.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-website/src/app/character.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-website/src/app/dadjokes.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-website/src/app/dadjokes.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-website/src/assets/smile.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-website/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-website/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +27,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2Vka9i4Mh313NfDq1TE2M18WfOC" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -33,27 +38,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/larss/IdeaProjects/portfolio-page/portfolio-website",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/larss/IdeaProjects/portfolio-page/portfolio-website&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\larss\\IdeaProjects\\portfolio-page\\portfolio-website\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
       <method v="2" />
@@ -88,7 +93,9 @@
       <workItem from="1697202347379" duration="12294000" />
       <workItem from="1697228654719" duration="9975000" />
       <workItem from="1697238720479" duration="1111000" />
-      <workItem from="1697240179346" duration="6826000" />
+      <workItem from="1697240179346" duration="7511000" />
+      <workItem from="1697481877265" duration="5159000" />
+      <workItem from="1697553608966" duration="11425000" />
     </task>
     <task id="LOCAL-00001" summary="- Initial commit&#10;- Small Start of page">
       <created>1696091387164</created>
@@ -134,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697465813497</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Dependencies Fix">
+      <option name="closed" value="true" />
+      <created>1697480906829</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697480906830</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +162,7 @@
     <MESSAGE value="- Preliminary version of the Skills" />
     <MESSAGE value="-Tab Integration for Top introduction" />
     <MESSAGE value="Dependencies Updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dependencies Updates" />
+    <MESSAGE value="Dependencies Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependencies Fix" />
   </component>
 </project>

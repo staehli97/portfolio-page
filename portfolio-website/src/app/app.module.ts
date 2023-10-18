@@ -16,6 +16,7 @@ import { MatTreeModule } from '@angular/material/tree';
 import { MatButtonModule } from '@angular/material/button';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatTabsModule } from '@angular/material/tabs';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatTreeModule,
     MatButtonModule,
     MatProgressBarModule,
-    MatTabsModule
+    MatTabsModule,
+    HttpClientModule,
 
   ],
   providers: [],
