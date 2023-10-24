@@ -237,6 +237,19 @@
     </mat-card-header>
 
     <mat-card class="container_api">
+
+
+      <mat-card-content id="book">
+        <br><div class="container_book"><mat-card-title>What I currently read: </mat-card-title>
+        <div *ngIf="bookData">
+          <h2>{{ bookData.title }}</h2>
+          <p>{{ bookData.subtitle }}</p>
+          <p>Veröffentlichungsjahr: {{ bookData.publish_date }}</p>
+          <img [src]="bookData.cover.medium" alt="Buchcover">
+        </div>
+      </div>
+      </mat-card-content>
+
     <mat-card-content id="dadjokes">
     <br><div class="container_dadjoke"><mat-card-title>Get me a Dad Joke: <br><img src="../assets/smile.svg" alt="smile" class="smile"></mat-card-title>
       <div id="joke" class="joke">{{ joke }}</div>
@@ -256,10 +269,10 @@
     </mat-card-content>
 
     <mat-card-content id="crypto">
-      <br><div class="container_rickmorty"><mat-card-title>Crypto Currencies: </mat-card-title>
+      <br><div class="container_crypto"><mat-card-title>Crypto Currencies: </mat-card-title>
       <div *ngFor="let crypto of cryptoData; let i = index">
         <ng-container *ngIf="i < 2">
-          <h2>{{ crypto.name }}</h2>
+          <br><h3>{{ crypto.name }}</h3>
           <p>Coin: {{ crypto.symbol }}</p>
           <p>Market Cap: ${{ crypto.marketCapUsd }}</p>
           <p>Price (USD): ${{ crypto.priceUsd }}</p>
@@ -267,6 +280,7 @@
       </div>
     </div>
     </mat-card-content>
+
 
     </mat-card>
   </mat-card>

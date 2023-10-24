@@ -141,6 +141,7 @@
 
 #dadjokes{
   width: 25%;
+  padding-top: 15px;
 }
 
 #rickandmorty{
@@ -174,6 +175,25 @@
   width: 10%;
 }
 .container_rickmorty{
+  border: 5px dashed black;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container_crypto{
+  border: 5px dashed black;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.container_book{
   border: 5px dashed black;
   width: auto;
   height: auto;

@@ -5,12 +5,12 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class DadjokesService {
-  url = 'https://icanhazdadjoke.com';
+  apiUrl = 'https://icanhazdadjoke.com';
 
   constructor(private http: HttpClient) { }
 
   getDadJoke(): Observable<any> {
-    return this.http.get(this.url, { headers: { Accept: 'application/json' } });
+    return this.http.get(this.apiUrl, { headers: { Accept: 'application/json' } });
   }
 
 }

@@ -9,6 +9,7 @@ import { DadjokesService } from './dadjokes.service';
 import {MatButtonModule} from "@angular/material/button";
 import { CharacterService } from "./character.service";
 import { CryptoService} from "./crypto.service";
+import { BookService } from "./book.service";
 
 @Component({
   selector: 'app-root',
@@ -23,15 +24,17 @@ export class AppComponent {
   toggleControl = new FormControl((localStorage.getItem('theme') == this._localStorageDarkTheme));
   characterData: any;
   cryptoData: any;
-
   joke: string = "";
+  bookData: any;
+  isbn = "9781544507859";
   dadJokeTitle = 'Dad jokes';
 
   constructor(private overlay: OverlayContainer,
               private elementRef: ElementRef,
               private dadjokes: DadjokesService,
               private characterService: CharacterService,
-              private cryptoService: CryptoService) {
+              private cryptoService: CryptoService,
+              private bookService: BookService) {
 
   }
   fetchJoke(): void {
@@ -58,6 +61,13 @@ export class AppComponent {
 
     this.cryptoService.getCrypto().subscribe(data=>{
         this.cryptoData = data.data;
+    })
+
+    this.bookService.getBook(this.isbn).subscribe(data=>{
+      if (data && data["ISBN:" + this.isbn]) {
+        this.bookData = data["ISBN:" + this.isbn];
+        console.log(this.bookData); // Zum Testen
+      }
     })
   }
 
