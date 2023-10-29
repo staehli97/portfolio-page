@@ -28,9 +28,8 @@
 
 #background-card {
   margin: 0 auto;
-  max-width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  max-width: 100%;
+
   //background-image: url('../assets/background.jpg');
   background-size: cover;
   background-repeat: repeat;
@@ -59,6 +58,7 @@
 #div2{
   height: 100%;
   width: 100%;
+  padding-right: 2%;
 }
 
 .my-image_tab2{
@@ -69,6 +69,7 @@
 #div3{
   height: 100%;
   width: 100%;
+  padding-right: 2%;
 }
 
 .container_tabs{

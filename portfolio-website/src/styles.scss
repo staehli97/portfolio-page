@@ -32,6 +32,24 @@ $angular-dark-theme: mat.define-dark-theme(
   @include mat.all-component-colors($angular-dark-theme);
 }
 
+$angular-primary-white: mat.define-palette(mat.$blue-palette, 500, 100, 900);
+$angular-accent-white: mat.define-palette(mat.$cyan-palette, 500, 100, 400);
+$angular-warn-white: mat.define-palette(mat.$red-palette);
+
+$angular-white-theme: mat.define-light-theme(
+    (
+      color: (
+        primary: $angular-primary-white,
+        accent: $angular-accent-white,
+        warn: $angular-warn-white,
+      ),
+    )
+);
+
+.whiteMode {
+  @include mat.all-component-colors($angular-white-theme);
+}
+
 
 
 html, body { height: 100%; display: unset!important; }

@@ -56,7 +56,7 @@ export class AppComponent {
       } else {
         localStorage.setItem('theme', 'white');
       }
-      this.applyDarkSavedTheme();
+      this.applyTheme();
     });
 
     this.cryptoService.getCrypto().subscribe(data=>{
@@ -72,12 +72,14 @@ export class AppComponent {
   }
 
   ngAfterContentInit(): void {
-    this.applyDarkSavedTheme();
+    this.applyTheme();
   }
 
-  private applyDarkSavedTheme() {
+  private applyTheme() {
     const theme = localStorage.getItem('theme');
     const darkMode = 'darkMode';
+    const whiteMode = 'whiteMode';
+
     if (theme == this._localStorageDarkTheme) {
       this.className = darkMode;
       this.overlay.getContainerElement().classList.add(darkMode);
@@ -101,8 +103,8 @@ export class AppComponent {
       }
 
     } else {
-      this.className = '';
-      this.overlay.getContainerElement().classList.remove(darkMode);
+      this.className = whiteMode;
+      this.overlay.getContainerElement().classList.add(whiteMode);
       const dom: HTMLElement = this.elementRef.nativeElement;
       const element_job = dom.querySelectorAll('.job_design');
       for (let i = 0; i < element_job.length; i++) {
