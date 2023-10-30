@@ -208,3 +208,28 @@
   width: 50%;
   height: 50%;
 }
+
+.dark-mode {
+  .job_design,
+  .describtion_design,
+  .titel_stepper,
+  .container_tabs,
+  .container_book,
+  .container_crypto,
+  .container_dadjoke,
+  .container_rickmorty {
+    color: white;
+  }
+}
+.light-mode {
+  .job_design,
+  .describtion_design,
+  .titel_stepper,
+  .container_tabs,
+  .container_book,
+  .container_crypto,
+  .container_dadjoke,
+  .container_rickmorty {
+    color: black;
+  }
+}

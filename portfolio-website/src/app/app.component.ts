@@ -83,46 +83,9 @@ export class AppComponent {
     if (theme == this._localStorageDarkTheme) {
       this.className = darkMode;
       this.overlay.getContainerElement().classList.add(darkMode);
-
-      const dom: HTMLElement = this.elementRef.nativeElement;
-      const element_job = dom.querySelectorAll('.job_design');
-
-      for(let i = 0; i < element_job.length;i++){
-        let element = element_job[i] as HTMLElement;
-        element.style.color = 'white';
-      }
-      const elements_describtion = dom.querySelectorAll('.describtion_design');
-      for(let i = 0; i < elements_describtion.length;i++){
-        let element = elements_describtion[i] as HTMLElement;
-        element.style.color = 'white';
-      }
-      const element_titel = dom.querySelectorAll('.titel_stepper');
-      for (let i = 0; i < element_titel.length; i++) {
-        let element = element_titel[i] as HTMLElement;
-        element.style.color = 'white';
-      }
-
     } else {
       this.className = whiteMode;
       this.overlay.getContainerElement().classList.add(whiteMode);
-      const dom: HTMLElement = this.elementRef.nativeElement;
-      const element_job = dom.querySelectorAll('.job_design');
-      for (let i = 0; i < element_job.length; i++) {
-        let element = element_job[i] as HTMLElement;
-        element.style.color = 'black';
-      }
-      const elements_describtion = dom.querySelectorAll('.describtion_design');
-      for(let i = 0; i < elements_describtion.length;i++){
-        let element = elements_describtion[i] as HTMLElement;
-        element.style.color = 'black';
-      }
-      const element_titel = dom.querySelectorAll('.titel_stepper');
-      for (let i = 0; i < element_titel.length; i++) {
-        let element = element_titel[i] as HTMLElement;
-        element.style.color = 'black';
-      }
     }
   }
-
-
 }

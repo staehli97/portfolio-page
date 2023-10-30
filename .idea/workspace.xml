@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25ddd075-384b-4902-8100-ab696abe9a87" name="Changes" comment="-Book API added&#10;-Small fixes">
+    <list default="true" id="25ddd075-384b-4902-8100-ab696abe9a87" name="Changes" comment="-Theme fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/src/app/app.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-website/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,8 @@
       <workItem from="1698177450441" duration="432000" />
       <workItem from="1698410383280" duration="1063000" />
       <workItem from="1698436585122" duration="1981000" />
-      <workItem from="1698601558042" duration="3644000" />
+      <workItem from="1698601558042" duration="7256000" />
+      <workItem from="1698665389665" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="- Initial commit&#10;- Small Start of page">
       <created>1696091387164</created>
@@ -176,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698177492823</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="-Theme fix">
+      <option name="closed" value="true" />
+      <created>1698610190912</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698610190913</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +201,7 @@
     <MESSAGE value="-API's alligned&#10;- Dadjokes Update&#10;- Rick and Morty API" />
     <MESSAGE value="-Crypto API" />
     <MESSAGE value="-Book API added&#10;-Small fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Book API added&#10;-Small fixes" />
+    <MESSAGE value="-Theme fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Theme fix" />
   </component>
 </project>

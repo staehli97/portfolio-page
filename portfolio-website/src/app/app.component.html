@@ -7,7 +7,7 @@
 </mat-toolbar>
 
 <mat-card id="background-card" >
-  <mat-card id="entry" class="front-card-top">
+  <mat-card id="entry" class="front-card-top" [class.dark-mode]="className === 'darkMode'" [class.light-mode]="className === 'whiteMode'">
     <mat-card-content>
       <mat-tab-group>
 
@@ -44,7 +44,7 @@
     </mat-card-content>
   </mat-card>
   <mat-card id="container" class="front-card-cv">
-    <mat-card id="front-card-left">
+    <mat-card id="front-card-left" [class.dark-mode]="className === 'darkMode'" [class.light-mode]="className === 'whiteMode'">
       <mat-card-content>
         <mat-card-header>
           <mat-card-title class="titel_stepper">Ein Blick in die Vergangenheit</mat-card-title>
@@ -158,9 +158,9 @@
         </mat-vertical-stepper>
       </mat-card-content>
     </mat-card>
-    <mat-card id="front-card-right">
+    <mat-card id="front-card-right"[class.dark-mode]="className === 'darkMode'" [class.light-mode]="className === 'whiteMode'">
       <mat-card-content>
-        <mat-card-header><mat-card-title class="titel_stepper">IT Skills</mat-card-title></mat-card-header>
+        <mat-card-header><mat-card-title class="titel_stepper" >IT Skills</mat-card-title></mat-card-header>
         <mat-list>
 <!--          //Vielleicht noch expansion Panel erstellen-->
           <mat-list-item id="mat-list">
@@ -237,7 +237,7 @@
       </mat-card-content>
     </mat-card>
     </mat-card>
-  <mat-card id="end" class="front-card-end">
+  <mat-card id="end" class="front-card-end" [class.dark-mode]="className === 'darkMode'" [class.light-mode]="className === 'whiteMode'">
     <mat-card class="container_api">
       <mat-card-content id="book">
         <br><div class="container_book"><mat-card-title>What I currently read: </mat-card-title>
@@ -285,6 +285,3 @@
     </mat-card>
   </mat-card>
 </mat-card>
-
-
-
