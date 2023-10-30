@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25ddd075-384b-4902-8100-ab696abe9a87" name="Changes" comment="-Theme fix">
+    <list default="true" id="25ddd075-384b-4902-8100-ab696abe9a87" name="Changes" comment="-Darkmode fix">
+      <change afterPath="$PROJECT_DIR$/portfolio-website/docs/3rdpartylicenses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-website/docs/assets/smile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-website/docs/assets/whoami.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-website/docs/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-website/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-website/docs/main.ddd5a2e42524ad78.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-website/docs/polyfills.b6d66b79a5930e9c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-website/docs/runtime.4dcb2badfee51656.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-website/docs/styles.c49b8182e55c65ba.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-website/portfolio-website.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/src/app/app.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/angular.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +107,7 @@
       <workItem from="1698436585122" duration="1981000" />
       <workItem from="1698601558042" duration="7256000" />
       <workItem from="1698665389665" duration="244000" />
+      <workItem from="1698666593833" duration="1155000" />
     </task>
     <task id="LOCAL-00001" summary="- Initial commit&#10;- Small Start of page">
       <created>1696091387164</created>
@@ -184,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698610190913</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="-Darkmode fix">
+      <option name="closed" value="true" />
+      <created>1698666659196</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698666659196</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +219,7 @@
     <MESSAGE value="-Crypto API" />
     <MESSAGE value="-Book API added&#10;-Small fixes" />
     <MESSAGE value="-Theme fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Theme fix" />
+    <MESSAGE value="-Darkmode fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Darkmode fix" />
   </component>
 </project>
