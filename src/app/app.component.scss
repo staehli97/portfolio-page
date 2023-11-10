@@ -1,0 +1,235 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.icon-container_moon{
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+  padding-top: 1px;
+}
+.icon-container_sun{
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+  padding-top: 1px;
+}
+
+.titel_stepper{
+  font-size: x-large;
+  font-weight: bold;
+}
+
+#background-card {
+  margin: 0 auto;
+  max-width: 100%;
+
+  //background-image: url('../assets/background.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+
+}
+
+.tab1{
+  justify-content: center;
+  align-content: center;
+}
+#tab2{
+  justify-content: center;
+  align-content: center;
+}
+#tab3{
+  justify-content: center;
+  align-content: center;
+}
+
+
+#div1{
+  height: 100%;
+  width: 100%;
+}
+
+#div2{
+  height: 100%;
+  width: 100%;
+  padding-right: 2%;
+}
+
+.my-image_tab2{
+  width:90%;
+  height:90%;
+}
+
+#div3{
+  height: 100%;
+  width: 100%;
+  padding-right: 2%;
+}
+
+.container_tabs{
+  display:flex;
+  justify-content: space-between;
+}
+
+.my-image {
+  width: 31%;
+  height: 31%
+}
+
+.front-card-cv {
+  display: flex;
+  flex-direction: row; /* Ändern Sie die Flex-Richtung von der Standardoption "column" auf "row" */
+  justify-content: space-between; /* Fügt Abstand zwischen den Karten hinzu */
+}
+
+.container_api {
+  display: flex;
+  flex-direction: row;
+
+}
+
+#front-card-left, #front-card-right {
+  flex: 1; /* Verteilt den verfügbaren Platz gleichmäßig zwischen den beiden Karten */
+  margin: 10px; /* Fügt einen Abstand zwischen den Karten hinzu */
+}
+
+#entry{
+  width: auto;
+  height: auto;
+}
+
+.job_design{
+  padding-top: 2%;
+  font-size: x-large;
+  display:block;
+  height: auto;
+  width: 100%;
+}
+
+.describtion_design{
+  padding-top: 10px;
+  font-weight: lighter;
+  height: auto;
+  width: 90%;
+  color:black;
+}
+.tasks{
+  list-style: disc;
+  overflow-wrap: break-word;
+}
+
+.skills_titel{
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.skills_definition{
+  padding-top: 1%;
+  font-size: large;
+
+}
+
+#mat-list{
+  height: auto;
+  width: auto;
+}
+
+#dadjokes{
+  width: 25%;
+  padding-top: 15px;
+}
+
+#rickandmorty{
+  width: 25%;
+  padding-top: 15px;
+}
+
+#crypto{
+  width: 25%;
+  padding-top: 15px;
+}
+
+.container_dadjoke{
+  border: 5px dashed black;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.joke{
+  font-family: Dialog;
+  text-align: center;
+  font-size: large;
+}
+.smile{
+  height: 10%;
+  width: 10%;
+}
+.container_rickmorty{
+  border: 5px dashed black;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container_crypto{
+  border: 5px dashed black;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.container_book{
+  border: 5px dashed black;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.imgRM{
+  width: 50%;
+  height: 50%;
+}
+
+.dark-mode {
+  .job_design,
+  .describtion_design,
+  .titel_stepper,
+  .container_tabs,
+  .container_book,
+  .container_crypto,
+  .container_dadjoke,
+  .container_rickmorty {
+    color: white;
+  }
+}
+.light-mode {
+  .job_design,
+  .describtion_design,
+  .titel_stepper,
+  .container_tabs,
+  .container_book,
+  .container_crypto,
+  .container_dadjoke,
+  .container_rickmorty {
+    color: black;
+  }
+}

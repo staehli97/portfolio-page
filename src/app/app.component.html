@@ -1,0 +1,287 @@
+<mat-toolbar color="primary" class="toolbar">
+  <span>Portfolio Lars Stähli</span>
+  <span class="spacer"></span>
+  <div class="icon-container_sun"><mat-icon>wb_sunny</mat-icon></div>
+  <mat-slide-toggle [formControl]="toggleControl"> </mat-slide-toggle>
+  <div class="icon-container_moon"><mat-icon>bedtime</mat-icon></div>
+</mat-toolbar>
+
+<mat-card id="background-card" >
+  <mat-card id="entry" class="front-card-top" [class.dark-mode]="className === 'darkMode'" [class.light-mode]="className === 'whiteMode'">
+    <mat-card-content>
+      <mat-tab-group>
+
+        <mat-tab label="Wer bin ich?">
+          <br>
+          <div class="tab1"><img class="my-image" src="../assets/whoami.jpeg" alt="Mein Bild">
+          </div>
+        </mat-tab>
+
+        <mat-tab label="Was mache ich?">
+        <br><div class="container_tabs">
+          <div id="div1"> <img class="my-image_tab2" src="../assets/whoami.jpeg" alt="Mein Bild"></div>
+          <div id="div2">Ich bin ein gelernter Informatiker mit Schwerpunkt Applikationsentwicklung, der sich in der Welt des DevOps Engineerings in einer agilen Umgebung zu Hause fühlt. Mein Weg begann in der Ausbildung und führte mich zu der Rolle, die ich heute ausübe.<br><br>Als DevOps Engineer sehe ich meine Aufgabe darin, die nahtlose Zusammenarbeit zwischen Entwicklung und Operations zu fördern, indem ich Prozesse optimiere und Automatisierung vorantreibe. Aktuell absolviere ich meinen Bachelor, weil ich an lebenslanges Lernen glaube und immer bestrebt bin, meine Fähigkeiten zu verbessern.<br><br>Ich bin überzeugt, dass Leidenschaft, Wissen und eine agile Denkweise der Schlüssel zum Erfolg in der IT-Branche sind. Ich freue mich darauf, die Zukunft der Technologie mitzugestalten und weiterhin zu lernen und zu wachsen.</div>
+          <div id="div3"></div>
+        </div>
+
+      </mat-tab>
+        <mat-tab label="Meine Interessen"><br><div class="container_tabs">
+          <div id="div1"> <img class="my-image_tab2" src="../assets/whoami.jpeg" alt="Mein Bild"></div>
+          <div id="div2">Ich bin ein gelernter Informatiker mit Schwerpunkt Applikationsentwicklung, der sich in der Welt des DevOps Engineerings in einer agilen Umgebung zu Hause fühlt. Mein Weg begann im Testing und führte mich zu der Rolle, die ich heute ausübe.<br><br>Als DevOps Engineer sehe ich meine Aufgabe darin, die nahtlose Zusammenarbeit zwischen Entwicklung und Operations zu fördern, indem ich Prozesse optimiere und Automatisierung vorantreibe. Aktuell absolviere ich meinen Bachelor, weil ich an lebenslanges Lernen glaube und immer bestrebt bin, meine Fähigkeiten zu verbessern.<br><br>Ich bin überzeugt, dass Leidenschaft, Wissen und eine agile Denkweise der Schlüssel zum Erfolg in der IT-Branche sind. Ich freue mich darauf, die Zukunft der Technologie mitzugestalten und weiterhin zu lernen und zu wachsen.</div>
+          <div id="div3">
+            <ul class="interest-list">
+              <li class="interest-list-item"><h2>Fitness / Kraftsport</h2></li>
+              <li class="interest-list-item"><h2>Ausdauersport - Schwimmen / Joegen</h2></li>
+              <li class="interest-list-item"><h2>Freund treffen</h2></li>
+              <li class="interest-list-item"><h2>Filme und Serien</h2></li>
+              <li class="interest-list-item"><h2>Lesen</h2></li>
+              <li class="interest-list-item"><h2>Reisen</h2></li>
+            </ul>
+          </div>
+        </div></mat-tab>
+
+      </mat-tab-group>
+    </mat-card-content>
+  </mat-card>
+  <mat-card id="container" class="front-card-cv">
+    <mat-card id="front-card-left" [class.dark-mode]="className === 'darkMode'" [class.light-mode]="className === 'whiteMode'">
+      <mat-card-content>
+        <mat-card-header>
+          <mat-card-title class="titel_stepper">Ein Blick in die Vergangenheit</mat-card-title>
+        </mat-card-header>
+        <mat-vertical-stepper #stepper>
+          <mat-step label ="01.2023 - Today">
+            <ng-template matStepperIcon="edit"><mat-icon>zoom_in</mat-icon></ng-template>
+            <div class="job_design">DevOps Engineer @Schweizerische Post</div>
+            <div class="describtion_design">
+              <ul class="tasks">
+                <li>Lead Testautomatisierung</li>
+                <li>Stv. Testmanager</li>
+                <li>OPS Tasks</li>
+                <li>Parallel zum Teilzeit Studium 40%</li>
+              </ul>
+              </div>
+          </mat-step>
+          <mat-step label="10.2021 - 12.2022">
+              <div class="job_design">Test Engineer @Schweizerische Post</div>
+              <div class="describtion_design">
+                <ul class="tasks">
+                  <li>Lead Testautomatisierung</li>
+                  <li>Stv. Testmanager</li>
+                  <li>Parallel zum Teilzeit Studium 40%</li>
+                </ul>
+              </div>
+          </mat-step>
+          <mat-step label="09.2021 - Today">
+                <div class="job_design">Bsc. Wirtschaftsinformatik @BFH</div>
+                <div class="describtion_design">
+                  <ul class="tasks">
+                    <li>Grundstudium Abgeschlossen</li>
+                    <li>Geplannte Vertiefungen in Software Architektur</li>
+                    <li>Geplannte Zweit Vertiefung in Projektmanagement</li>
+                  </ul>
+                </div>
+          </mat-step>
+          <mat-step label="08.2019 - 07.2020">
+            <div class="job_design">Technische Berufsmaturität Vollzeit</div>
+            <div class="describtion_design">
+              <ul class="tasks">
+                <li>Abgeschlossen mit 4.6</li>
+              </ul>
+            </div>
+          </mat-step>
+          <mat-step label="08.2019 - 07.2020">
+            <div class="job_design">Test Engineer @Haag-Streit</div>
+            <div class="describtion_design">
+              <ul class="tasks">
+                <li>Erstellen, Eruieren und Anpassen sowie Review von Testfällen auf Basis Change Requests, Requirements und Inputs der Produktentwicklung</li>
+                <li>Implementierung von automatisierten Testfällen auf Stufe Integration</li>
+                <li>Bereitstellen und Pflege von Testdaten</li>
+                <li>Durchführung und Dokumentation von manuellen Integrations- und Systemtests gemäss den vorgegebenen Testfällen</li>
+                <li>Analyse von Testfehlern und -resultaten</li>
+                <li>Reporting und Tracking von Fehlern sowie Sicherstellung von deren Behebung mittels Retests</li>
+                <li>Unterhalt und Pflege der Test-PC Infrastruktur</li>
+                <li>Übernahme des testseitigen Leads im Produktbereich Perimetry</li>
+                <li>Schätzen von Testaufwänden im Rahmen des Change-Management Prozesses</li>
+                <li>Sicherstellen des Qualitätsmanagement innerhalb des Testprozesses</li>
+                <li>Einhalten der requlatorischen Bestimmungen für Medizinprodukte</li>
+                <li>Technologie/Werkzeuge: Mantis, MediaWiki, QF-Test, VWware</li>
+              </ul>
+            </div>
+          </mat-step>
+          <mat-step label="01.2019 - 05.2019">
+            <div class="job_design">Rekrutenschule Infanterie</div>
+            <div class="describtion_design">
+              <ul class="tasks">
+                <a href="https://www.miljobs.ch/functions/spaeher"><li>Späher</li></a>
+                <li>2. Funktion ABC Spührer</li>
+              </ul>
+            </div>
+          </mat-step>
+          <mat-step label="09.2018 - 12.2018">
+            <div class="job_design">Sprachenaufenthalt in Perth</div>
+            <div class="describtion_design">
+              <ul class="tasks">
+                <li>Camrbidge Advanced Certificat C1 abgeschlossen</li>
+              </ul>
+            </div>
+          </mat-step>
+          <mat-step label="08.2014 - 07.2018">
+            <div class="job_design">Informatik Lehre EFZ @BIT</div>
+            <div class="describtion_design">
+              <ul class="tasks">
+                <li>ISTQB Foundation Level Zertifikat erlangt</li>
+                <li>08.2016 – 08.2018 Software Entwicklung im SAP Umfeld</li>
+                  <ul>
+                    <li>ABAP Entwickler</li>
+                    <li>Entwicklung im SAP Umfeld</li>
+                    <li>Entwicklungen an Change Requests</li>
+                    <li>Zuständig für die Dump Verwaltung</li>
+                  </ul>
+                <li>02.2016 - 08.2016 Digitalisierung mit Validierung von Umfragen</li>
+                <ul>
+                  <li>Systemspezialist</li>
+                  <li>Benutzerunterstützung in HW- und SW- Themen</li>
+                  <li>Planung und Ausführung von Digitalisierungsprojekten</li>
+                  <li>Programmierung mit strukturierten Formularen mittel OCR-Erkennungssoftware (AnyDoc)</li>
+                </ul>
+                <li>08.2015 - 02.2016 Software Komponenten Testing</li>
+                <ul>
+                  <li>Software Komponenten Testing</li>
+                  <li>Erstellen von funktionalen automatisierten Testfällen mit dem Standard Tool HP UFT</li>
+                  <li>Ausführung der erstellten Testfälle mit dem Standard Tool HP ALM</li>
+                </ul>
+                <li>08.2014 - 07.2015 Basisausbildung BBC</li>
+              </ul>
+            </div>
+          </mat-step>
+        </mat-vertical-stepper>
+      </mat-card-content>
+    </mat-card>
+    <mat-card id="front-card-right"[class.dark-mode]="className === 'darkMode'" [class.light-mode]="className === 'whiteMode'">
+      <mat-card-content>
+        <mat-card-header><mat-card-title class="titel_stepper" >IT Skills</mat-card-title></mat-card-header>
+        <mat-list>
+<!--          //Vielleicht noch expansion Panel erstellen-->
+          <mat-list-item id="mat-list">
+            <span class="skills_titel" matListItemTitle>Dev</span>
+            <p matListItemLine class="skills_definition" >Java</p>
+            <mat-progress-bar mode="determinate" value="60"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list">
+            <p matListItemLine class="skills_definition" >C#</p>
+            <mat-progress-bar mode="determinate" value="20"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list">
+            <p matListItemLine class="skills_definition" >Python</p>
+            <mat-progress-bar mode="determinate" value="70"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list">
+            <p matListItemLine class="skills_definition" >ABAP</p>
+            <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list">
+            <p matListItemLine class="skills_definition" >VB/VBA/VBS</p>
+            <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list">
+            <p matListItemLine class="skills_definition" >HTML/CSS/Javascript/Angular</p>
+            <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list">
+            <p matListItemLine class="skills_definition" >SQL/MySQL</p>
+            <mat-progress-bar mode="determinate" value="70"></mat-progress-bar>
+          </mat-list-item>
+          <br>
+          <mat-list-item id="mat-list">
+            <span class="skills_titel" matListItemTitle>Testing</span>
+            <p matListItemLine class="skills_definition" >Robotframework/Selenium</p>
+            <mat-progress-bar mode="determinate" value="100"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list">
+            <p matListItemLine class="skills_definition" >QF Test</p>
+            <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list_testing">
+            <p matListItemLine class="skills_definition" >HP ALM/HP UFT</p>
+            <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list_testing">
+            <p matListItemLine class="skills_definition" >CI/CD Pipeline</p>
+            <mat-progress-bar mode="determinate" value="20"></mat-progress-bar>
+          </mat-list-item>
+
+          <br>
+          <mat-list-item id="mat-list">
+            <span class="skills_titel" matListItemTitle>OPS</span>
+            <p matListItemLine class="skills_definition" >Monitoring and alerting</p>
+            <mat-progress-bar mode="determinate" value="10"></mat-progress-bar>
+          </mat-list-item>
+
+          <mat-list-item id="mat-list_testing">
+            <p matListItemLine class="skills_definition" >On-call, incident response and incident management</p>
+            <mat-progress-bar mode="determinate" value="30"></mat-progress-bar>
+          </mat-list-item>
+
+
+        </mat-list>
+      </mat-card-content>
+    </mat-card>
+    </mat-card>
+  <mat-card id="end" class="front-card-end" [class.dark-mode]="className === 'darkMode'" [class.light-mode]="className === 'whiteMode'">
+    <mat-card class="container_api">
+      <mat-card-content id="book">
+        <br><div class="container_book"><mat-card-title>What I currently read: </mat-card-title>
+        <div *ngIf="bookData">
+          <h2>{{ bookData.title }}</h2>
+          <p>{{ bookData.subtitle }}</p>
+          <p>Veröffentlichungsjahr: {{ bookData.publish_date }}</p>
+          <img [src]="bookData.cover.medium" alt="Buchcover">
+        </div>
+      </div>
+      </mat-card-content>
+
+    <mat-card-content id="dadjokes">
+    <br><div class="container_dadjoke"><mat-card-title>Get me a Dad Joke: <br><img src="../assets/smile.svg" alt="smile" class="smile"></mat-card-title>
+      <div id="joke" class="joke">{{ joke }}</div>
+      <br><button mat-button id="jokeBtn" class="dadjokebtn" (click)="fetchJoke()">Nächster Dad Joke</button>
+    </div>
+    </mat-card-content>
+
+    <mat-card-content id="rickandmorty">
+      <br><div class="container_rickmorty"><mat-card-title>Get your Rick and Morty Character: </mat-card-title>
+      <div *ngIf="characterData">
+        <img [src]="characterData.image" class="imgRM" [alt]="characterData.name">
+        <h3>{{ characterData.name }}</h3>
+        <p>Spezies: {{ characterData.species }}</p>
+      </div>
+      <button mat-button id="characterBtn" class="characterbtn" (click)="fetchCharacter()">Next Try</button>
+    </div>
+    </mat-card-content>
+
+    <mat-card-content id="crypto">
+      <br><div class="container_crypto"><mat-card-title>Crypto Currencies: </mat-card-title>
+      <div *ngFor="let crypto of cryptoData; let i = index">
+        <ng-container *ngIf="i < 2">
+          <br><h3>{{ crypto.name }}</h3>
+          <p>Coin: {{ crypto.symbol }}</p>
+          <p>Market Cap: ${{ crypto.marketCapUsd }}</p>
+          <p>Price (USD): ${{ crypto.priceUsd }}</p>
+        </ng-container>
+      </div>
+    </div>
+    </mat-card-content>
+
+
+    </mat-card>
+  </mat-card>
+</mat-card>
