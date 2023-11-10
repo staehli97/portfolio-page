@@ -5,18 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25ddd075-384b-4902-8100-ab696abe9a87" name="Changes" comment="-Darkmode fix">
-      <change afterPath="$PROJECT_DIR$/portfolio-website/docs/3rdpartylicenses.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio-website/docs/assets/smile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio-website/docs/assets/whoami.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio-website/docs/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio-website/docs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio-website/docs/main.ddd5a2e42524ad78.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio-website/docs/polyfills.b6d66b79a5930e9c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio-website/docs/runtime.4dcb2badfee51656.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio-website/docs/styles.c49b8182e55c65ba.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio-website/portfolio-website.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-website/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-website/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/docs/3rdpartylicenses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/docs/assets/smile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/docs/assets/whoami.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/docs/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/docs/main.ddd5a2e42524ad78.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/docs/polyfills.b6d66b79a5930e9c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/docs/runtime.4dcb2badfee51656.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/docs/styles.c49b8182e55c65ba.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/portfolio-website.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/book.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/book.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/character.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/character.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/crypto.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/crypto.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/dadjokes.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/app/dadjokes.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/assets/smile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/assets/whoami.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/src/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-website/tsconfig.spec.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +140,11 @@
       <workItem from="1698436585122" duration="1981000" />
       <workItem from="1698601558042" duration="7256000" />
       <workItem from="1698665389665" duration="244000" />
-      <workItem from="1698666593833" duration="1155000" />
+      <workItem from="1698666593833" duration="2720000" />
+      <workItem from="1699304667430" duration="5000" />
+      <workItem from="1699306024929" duration="11000" />
+      <workItem from="1699625138589" duration="3134000" />
+      <workItem from="1699632693525" duration="292000" />
     </task>
     <task id="LOCAL-00001" summary="- Initial commit&#10;- Small Start of page">
       <created>1696091387164</created>
@@ -201,11 +238,30 @@
       <option name="project" value="LOCAL" />
       <updated>1698666659196</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="-Darkmode fix">
+      <option name="closed" value="true" />
+      <created>1698668871538</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1698668871538</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
