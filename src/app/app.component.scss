@@ -1,7 +1,8 @@
 .toolbar {
   display: flex;
   justify-content: space-between;
-
+  align-items: center;
+  text-align: center;
 }
 
 .spacer {
@@ -232,4 +233,32 @@
   .container_rickmorty {
     color: black;
   }
+}
+@media screen and (max-width: 600px) {
+  .front-card-cv {
+    flex-direction: column; /* Auf kleinen Bildschirmen vertikal anordnen */
+  }
+
+  #front-card-left, #front-card-right  {
+    width: auto; /* Auf kleinen Bildschirmen die volle Breite nutzen */
+  }
+
+  .my-image {
+    width: 100%; /* Auf kleinen Bildschirmen die volle Breite nutzen */
+    height: auto; /* Die Höhe automatisch anpassen */
+  }
+  .container_api {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; /* Auf kleinen Bildschirmen die APIs in einer Spalte anordnen */
+    min-width: 100%;
+  }
+  .mat-card {
+    margin: 10px 0; /* Abstand zwischen den Karten anpassen */
+  }
+
+  #book, #dadjokes,#rickandmorty, #crypto {
+    width: auto;
+  }
+
 }

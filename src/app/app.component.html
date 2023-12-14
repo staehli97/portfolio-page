@@ -20,7 +20,7 @@
         <mat-tab label="Was mache ich?">
         <br><div class="container_tabs">
           <div id="div1"> <img class="my-image_tab2" src="assets/whoami.jpeg" alt="Mein Bild"></div>
-          <div id="div2">Ich bin ein gelernter Informatiker mit Schwerpunkt Applikationsentwicklung, der sich in der Welt des DevOps Engineerings in einer agilen Umgebung zu Hause fühlt. Mein Weg begann in der Ausbildung und führte mich zu der Rolle, die ich heute ausübe.<br><br>Als DevOps Engineer sehe ich meine Aufgabe darin, die nahtlose Zusammenarbeit zwischen Entwicklung und Operations zu fördern, indem ich Prozesse optimiere und Automatisierung vorantreibe. Aktuell absolviere ich meinen Bachelor, weil ich an lebenslanges Lernen glaube und immer bestrebt bin, meine Fähigkeiten zu verbessern.<br><br>Ich bin überzeugt, dass Leidenschaft, Wissen und eine agile Denkweise der Schlüssel zum Erfolg in der IT-Branche sind. Ich freue mich darauf, die Zukunft der Technologie mitzugestalten und weiterhin zu lernen und zu wachsen.</div>
+          <div id="div2">Ich bin gelernter Informatiker mit Schwerpunkt Applikationsentwicklung, der sich in der Welt des DevOps Engineerings in einer agilen Umgebung zu Hause fühlt. Mein Weg begann in der Ausbildung und führte mich zu der Rolle, die ich heute ausübe.<br><br>Als DevOps Engineer sehe ich meine Aufgabe darin, die nahtlose Zusammenarbeit zwischen Entwicklung und Operations zu fördern, indem ich Prozesse optimiere und Automatisierung vorantreibe. Aktuell absolviere ich meinen Bachelor, weil ich an lebenslanges Lernen glaube und immer bestrebt bin, meine Fähigkeiten zu verbessern.<br><br>Ich bin überzeugt, dass Leidenschaft, Wissen und eine agile Denkweise der Schlüssel zum Erfolg in der IT-Branche sind. Ich freue mich darauf, die Zukunft der Technologie mitzugestalten und weiterhin zu lernen und zu wachsen.</div>
           <div id="div3"></div>
         </div>
 
@@ -31,7 +31,7 @@
           <div id="div3">
             <ul class="interest-list">
               <li class="interest-list-item"><h2>Fitness / Kraftsport</h2></li>
-              <li class="interest-list-item"><h2>Ausdauersport - Schwimmen / Joegen</h2></li>
+              <li class="interest-list-item"><h2>Ausdauersport - Schwimmen / Joggen</h2></li>
               <li class="interest-list-item"><h2>Freund treffen</h2></li>
               <li class="interest-list-item"><h2>Filme und Serien</h2></li>
               <li class="interest-list-item"><h2>Lesen</h2></li>
@@ -57,7 +57,7 @@
               <ul class="tasks">
                 <li>Lead Testautomatisierung</li>
                 <li>Stv. Testmanager</li>
-                <li>OPS Tasks</li>
+                <li>Operative Unterstützung</li>
                 <li>Parallel zum Teilzeit Studium 40%</li>
               </ul>
               </div>
@@ -240,12 +240,12 @@
   <mat-card id="end" class="front-card-end" [class.dark-mode]="className === 'darkMode'" [class.light-mode]="className === 'whiteMode'">
     <mat-card class="container_api">
       <mat-card-content id="book">
-        <br><div class="container_book"><mat-card-title>What I currently read: </mat-card-title>
+        <br><div class="container_book"><mat-card-title>Was ich momentan lese: </mat-card-title>
         <div *ngIf="bookData">
           <h2>{{ bookData.title }}</h2>
           <p>{{ bookData.subtitle }}</p>
           <p>Veröffentlichungsjahr: {{ bookData.publish_date }}</p>
-          <img [src]="bookData.cover.medium" alt="Buchcover">
+<!--          <img [src]="bookData.cover.medium" alt="Buchcover">-->
         </div>
       </div>
       </mat-card-content>
@@ -258,7 +258,7 @@
     </mat-card-content>
 
     <mat-card-content id="rickandmorty">
-      <br><div class="container_rickmorty"><mat-card-title>Get your Rick and Morty Character: </mat-card-title>
+      <br><div class="container_rickmorty"><mat-card-title>Random Rick&Morty Charakter: </mat-card-title>
       <div *ngIf="characterData">
         <img [src]="characterData.image" class="imgRM" [alt]="characterData.name">
         <h3>{{ characterData.name }}</h3>
@@ -269,7 +269,7 @@
     </mat-card-content>
 
     <mat-card-content id="crypto">
-      <br><div class="container_crypto"><mat-card-title>Crypto Currencies: </mat-card-title>
+      <br><div class="container_crypto"><mat-card-title>Krypto Währungen: </mat-card-title>
       <div *ngFor="let crypto of cryptoData; let i = index">
         <ng-container *ngIf="i < 2">
           <br><h3>{{ crypto.name }}</h3>
