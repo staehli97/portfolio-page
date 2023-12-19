@@ -12,20 +12,19 @@
       <mat-tab-group>
 
         <mat-tab label="Wer bin ich?">
-          <br>
-          <div class="tab1"><img class="my-image" src="assets/whoami.jpeg" alt="Mein Bild">
-          </div>
+          <br><div class="container_tabs1"><img class="my-image" src="assets/whoami.jpeg" alt="Mein Bild"></div>
         </mat-tab>
 
         <mat-tab label="Was mache ich?">
-        <br><div class="container_tabs">
+        <br><div class="container_tabs2">
           <div id="div1"> <img class="my-image_tab2" src="assets/whoami.jpeg" alt="Mein Bild"></div>
           <div id="div2">Ich bin gelernter Informatiker mit Schwerpunkt Applikationsentwicklung, der sich in der Welt des DevOps Engineerings in einer agilen Umgebung zu Hause fühlt. Mein Weg begann in der Ausbildung und führte mich zu der Rolle, die ich heute ausübe.<br><br>Als DevOps Engineer sehe ich meine Aufgabe darin, die nahtlose Zusammenarbeit zwischen Entwicklung und Operations zu fördern, indem ich Prozesse optimiere und Automatisierung vorantreibe. Aktuell absolviere ich meinen Bachelor, weil ich an lebenslanges Lernen glaube und immer bestrebt bin, meine Fähigkeiten zu verbessern.<br><br>Ich bin überzeugt, dass Leidenschaft, Wissen und eine agile Denkweise der Schlüssel zum Erfolg in der IT-Branche sind. Ich freue mich darauf, die Zukunft der Technologie mitzugestalten und weiterhin zu lernen und zu wachsen.</div>
           <div id="div3"></div>
         </div>
 
       </mat-tab>
-        <mat-tab label="Meine Interessen"><br><div class="container_tabs">
+        <mat-tab label="Meine Interessen"><br>
+          <div class="container_tabs3">
           <div id="div1"> <img class="my-image_tab2" src="assets/whoami.jpeg" alt="Mein Bild"></div>
           <div id="div2">Ich bin ein gelernter Informatiker mit Schwerpunkt Applikationsentwicklung, der sich in der Welt des DevOps Engineerings in einer agilen Umgebung zu Hause fühlt. Mein Weg begann im Testing und führte mich zu der Rolle, die ich heute ausübe.<br><br>Als DevOps Engineer sehe ich meine Aufgabe darin, die nahtlose Zusammenarbeit zwischen Entwicklung und Operations zu fördern, indem ich Prozesse optimiere und Automatisierung vorantreibe. Aktuell absolviere ich meinen Bachelor, weil ich an lebenslanges Lernen glaube und immer bestrebt bin, meine Fähigkeiten zu verbessern.<br><br>Ich bin überzeugt, dass Leidenschaft, Wissen und eine agile Denkweise der Schlüssel zum Erfolg in der IT-Branche sind. Ich freue mich darauf, die Zukunft der Technologie mitzugestalten und weiterhin zu lernen und zu wachsen.</div>
           <div id="div3">
@@ -43,6 +42,8 @@
       </mat-tab-group>
     </mat-card-content>
   </mat-card>
+
+
   <mat-card id="container" class="front-card-cv">
     <mat-card id="front-card-left" [class.dark-mode]="className === 'darkMode'" [class.light-mode]="className === 'whiteMode'">
       <mat-card-content>
@@ -245,13 +246,16 @@
           <h2>{{ bookData.title }}</h2>
           <p>{{ bookData.subtitle }}</p>
           <p>Veröffentlichungsjahr: {{ bookData.publish_date }}</p>
+<!--          Leider musste ich hier das Bild statisch einfügen. Als ich mit der Umsetzung begann, wurde das Bookcover noch im Objekt mitgeliefert.-->
+<!--          Stand 19.12.29023 wird das Cover nicht mehr mitgeliefert.-->
+          <img src="assets/book.jpg" alt="smile" class="alt_book">
 <!--          <img [src]="bookData.cover.medium" alt="Buchcover">-->
         </div>
       </div>
       </mat-card-content>
 
     <mat-card-content id="dadjokes">
-    <br><div class="container_dadjoke"><mat-card-title>Get me a Dad Joke: <br><img src="assets/smile.svg" alt="smile" class="smile"></mat-card-title>
+    <br><div class="container_dadjoke"><mat-card-title>Dad Jokes: <br><img src="assets/smile.svg" alt="smile" class="smile"></mat-card-title>
       <div id="joke" class="joke">{{ joke }}</div>
       <br><button mat-button id="jokeBtn" class="dadjokebtn" (click)="fetchJoke()">Nächster Dad Joke</button>
     </div>

@@ -30,25 +30,11 @@
 #background-card {
   margin: 0 auto;
   max-width: 100%;
-
-  //background-image: url('../assets/background.jpg');
   background-size: cover;
   background-repeat: repeat;
 
 }
 
-.tab1{
-  justify-content: center;
-  align-content: center;
-}
-#tab2{
-  justify-content: center;
-  align-content: center;
-}
-#tab3{
-  justify-content: center;
-  align-content: center;
-}
 
 
 #div1{
@@ -73,7 +59,7 @@
   padding-right: 2%;
 }
 
-.container_tabs{
+.container_tabs1, .container_tabs2, .container_tabs3{
   display:flex;
   justify-content: space-between;
 }
@@ -85,8 +71,8 @@
 
 .front-card-cv {
   display: flex;
-  flex-direction: row; /* Ändern Sie die Flex-Richtung von der Standardoption "column" auf "row" */
-  justify-content: space-between; /* Fügt Abstand zwischen den Karten hinzu */
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .container_api {
@@ -96,8 +82,8 @@
 }
 
 #front-card-left, #front-card-right {
-  flex: 1; /* Verteilt den verfügbaren Platz gleichmäßig zwischen den beiden Karten */
-  margin: 10px; /* Fügt einen Abstand zwischen den Karten hinzu */
+  flex: 1;
+  margin: 10px;
 }
 
 #entry{
@@ -205,6 +191,12 @@
   text-align: center;
 }
 
+  .alt_book{
+    height: 30%;
+    width: 30%;
+
+}
+
 .imgRM{
   width: 50%;
   height: 50%;
@@ -214,51 +206,78 @@
   .job_design,
   .describtion_design,
   .titel_stepper,
-  .container_tabs,
+  .container_tabs1,
+  .container_tabs2,
+  .container_tabs3,
   .container_book,
   .container_crypto,
   .container_dadjoke,
   .container_rickmorty {
     color: white;
   }
+  .container_book,
+  .container_crypto,
+  .container_dadjoke,
+  .container_rickmorty{
+    border: 5px dashed white;
+  }
+
 }
 .light-mode {
   .job_design,
   .describtion_design,
   .titel_stepper,
-  .container_tabs,
+  .container_tabs1,
+  .container_tabs2,
+  .container_tabs3,
   .container_book,
   .container_crypto,
   .container_dadjoke,
   .container_rickmorty {
     color: black;
   }
+  .container_book,
+  .container_crypto,
+  .container_dadjoke,
+  .container_rickmorty{
+    border: 5px dashed black;
+  }
 }
 @media screen and (max-width: 600px) {
   .front-card-cv {
-    flex-direction: column; /* Auf kleinen Bildschirmen vertikal anordnen */
+    flex-direction: column;
   }
 
   #front-card-left, #front-card-right  {
-    width: auto; /* Auf kleinen Bildschirmen die volle Breite nutzen */
+    width: auto;
   }
 
   .my-image {
-    width: 100%; /* Auf kleinen Bildschirmen die volle Breite nutzen */
-    height: auto; /* Die Höhe automatisch anpassen */
+    width: 100%;
+    height: auto;
   }
   .container_api {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column; /* Auf kleinen Bildschirmen die APIs in einer Spalte anordnen */
+    flex-direction: column;
     min-width: 100%;
   }
   .mat-card {
-    margin: 10px 0; /* Abstand zwischen den Karten anpassen */
+    margin: 10px 0;
   }
 
   #book, #dadjokes,#rickandmorty, #crypto {
     width: auto;
+  }
+
+  .container_tabs2 > #div1,
+  .container_tabs2 > #div3 {
+    display: none;
+  }
+
+  .container_tabs3 > #div1,
+  .container_tabs3 > #div2 {
+    display: none;
   }
 
 }
